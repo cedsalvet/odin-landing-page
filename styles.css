@@ -8,6 +8,19 @@ main{
     width:90%;
     margin: 0 auto;
 }
+button.signup{
+    background-color: #3882F6;
+    color: #F9F1F8;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/************************************
+** the style of the header         **
+************************************/
 header{
     background-color: #1F2937;
     display: flex;
@@ -23,14 +36,134 @@ header div#logo{
 header div#menu-links{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 45%;
 }
 header a{
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
     text-decoration: none;
     transition: all 0.5s;
 }
 header a:hover{
     color: #F9F1F8;
+}
+
+/************************************
+** the style of the top section    **
+************************************/
+section#top{
+    background-color: #1F2937;
+    color: #F9F1F8;
+    font-size: 18px;
+    display: flex;
+    padding:50px;
+}
+section#top #main-left{
+    width: 50%;
+    padding: 20px;
+}
+section#top #main-title{
+    font-size: 48px;
+    font-weight: bolder;
+}
+section#top #main-text{
+    color: #E5E7EB;
+}
+section#top #main-right {
+    width: 100%;
+    margin: 30px;
+    background-color: #85878B;
+    color: #F9F1F8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+section#top #main-image {
+    width: 100%;
+}
+
+/************************************
+** the style of the random section **
+************************************/
+#random{
+    margin: 50px 0;
+}
+#random-main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#random-title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.random-image{
+    border: #3882F6 solid 4px;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+}
+.random-subtext{
+    width: 100px;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+/************************************
+** the style of the quote section  **
+************************************/
+section#quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px 50px;
+    margin: 100px 0;
+}
+section#quote #customer::before{
+    content:'- ';
+}
+section#quote #customer{
+    text-align: right;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+/************************************
+** the style of the action section **
+************************************/
+#action{
+    margin: 50px 0;
+    background-color: #3882F6;
+    color: #F9FaF8;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+}
+#action-title{
+    font-weight: bolder;
+    font-size: 24px;
+}
+#action-text{
+
+}
+#action button.signup{
+    margin-left: 250px;
+    border: #F9FAF8 solid 2px;
+}
+
+
+/************************************
+** the style of the footer         **
+************************************/
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
 }
